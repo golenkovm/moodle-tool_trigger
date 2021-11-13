@@ -87,6 +87,7 @@ jobs:
             moodle-branch: 'master'
             database: 'pgsql'
             node: '14.15'
+
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
